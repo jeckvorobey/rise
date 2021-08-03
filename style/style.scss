@@ -177,6 +177,10 @@ body {
 
 .container {
   padding: 90px 0 0;
+
+  @media (max-width: 991.98px) {
+    padding: 20px 15px 0;
+  }
 }
 
 .info {
@@ -317,6 +321,12 @@ body {
   }
 }
 
+.wrap-img {
+  @media (max-width: 991.98px) {
+    margin-left: 1em;
+  }
+}
+
 .elements {
   position: relative;
   width: 850px;
@@ -326,7 +336,7 @@ body {
     position: relative;
     width: 266px;
     height: 304px;
-    margin-right: 0 auto;
+    margin: 0 auto;
   }
 
   &__1 {
@@ -362,7 +372,7 @@ body {
     @media (max-width: 991.98px) {
       width: 266px;
       height: 304px;
-      margin-left: 68px;
+      margin: 0 auto;
     }
   }
 
@@ -388,9 +398,9 @@ body {
     right: 9%;
 
     @media (max-width: 991.98px) {
-      width: 108px;
-      height: 88px;
-      right: -6%;
+      width: 34%;
+      height: 27.5%;
+      right: 0;
     }
   }
 
@@ -403,6 +413,13 @@ body {
     position: absolute;
     bottom: 6%;
     right: 5%;
+
+    @media (max-width: 991.98px) {
+      width: 14%;
+      height: 9.4%;
+      bottom: 7%;
+      right: -2%;
+    }
   }
 
   &__3 {
@@ -425,21 +442,6 @@ body {
 
 }
 
-#modal-img {
-  border: none !important;
-  background-color: rgba(0, 0, 0, 0) !important;
-}
-
-.dialog-img {
-  min-width: fit-content;
-}
-
-.content-img {
-  max-width: fit-content;
-  width: fit-content;
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-}
 
 .footer {
   color: #222;
