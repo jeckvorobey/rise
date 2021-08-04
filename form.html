@@ -15,9 +15,9 @@
   <title>Rise</title>
 </head>
 
-<body>
+<body data-barba="wrapper">
   <div class="container-fluid g-0">
-    <div class="content vh-100">
+    <div data-barba="container" data-barba-namespace="form" class="content vh-100">
       <div class="content__svg"></div>
       <div class="content__svg-1"></div>
       <div class="content__svg-2"></div>
@@ -28,7 +28,7 @@
           <h1 class="rise__title">
             Join Our Priority List
           </h1>
-          <div class="form-wrap mt-5">
+          <div class="form-wrap mt-3 mt-lg-5">
             <form class="form mb-3">
               <fieldset class="form__fildset w-100">
                 <div class="mb-3">
@@ -44,12 +44,13 @@
                 <select class="form-select  form__select mt-3">
                   <option selected>How Did You Hear About Us?</option>
                 </select>
-                <button type="submit" class="form__btn mt-5">Submit</button>
+                <button type="submit" class="form__btn mt-3">Submit</button>
               </fieldset>
             </form>
           </div>
         </section>
       </main>
+
       <footer class="footer d-flex justify-content-between align-items-xl-end align-items-center footer__icons">
         <div class="row">
           <div class="footer__icons">
@@ -68,7 +69,11 @@
   </script>
 
   <!-- barba -->
-  <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+  <script src="./plugins/@barba/core/dist/barba.umd.js"></script>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
   <script src="./js/main.js"></script>
 </body>
 
