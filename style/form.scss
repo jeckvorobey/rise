@@ -211,6 +211,13 @@ body {
     top: 0;
     right: 10%;
 
+    @media (max-width: 991.98px) {
+      width: 100px;
+      height: 80px;
+      background-image: url("../images/form/florals-sm.svg");
+      right: 0;
+    }
+
   }
 
   &__svg-1 {
@@ -222,6 +229,12 @@ body {
     position: absolute;
     top: 10%;
     left: 10%;
+
+    @media (max-width: 991.98px) {
+      width: 66px;
+      height: 55px;
+      top: 4%;
+    }
   }
 
   &__svg-2 {
@@ -233,6 +246,11 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
+
+    @media (max-width: 991.98px) {
+      width: 123px;
+      height: 101px;
+    }
   }
 
   &__svg-3 {
@@ -244,6 +262,12 @@ body {
     position: absolute;
     bottom: 17%;
     right: 0%;
+
+    @media (max-width: 991.98px) {
+      width: 51px;
+      height: 286px;
+      bottom: 6%;
+    }
   }
 }
 
