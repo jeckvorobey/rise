@@ -23,7 +23,7 @@
           <div class="col-12 col-xl-5">
             <div class="info text-start">
               <img class="info__logo" src="./images/logo.svg" alt="logo">
-              <div class="info__text d-flex flex-column align-items-center">
+              <div class="info__text d-flex flex-column">
                 <h1 class="info__title">Welcome to the heightened life.</h1>
                 <span class="info__subtitle d-block">Studio to 3 BR Luxury Rentals</span>
                 <span class="info__desc d-block mt-1 mt-lg-3">comming summer 2021 </span>
@@ -40,7 +40,8 @@
             <div class="elements">
               <div class="elements__1"></div>
               <figure class="elements__figure">
-                <img src="./images/img.png" alt="img" class="elements__img">
+                <img id="image" src="./images/img.png" alt="img" class="elements__img" data-bs-toggle="modal"
+                  data-bs-target="#modalImg">
               </figure>
               <div class="elements__2"></div>
               <div class="elements__2-1"></div>
@@ -60,6 +61,19 @@
         <p class="footer__copy m-0">Copyrights 2021 &copy; Rise LIC</p>
         <p class="footer__privacy m-0">Privacy Policy</p>
       </footer>
+      <!-- Modal -->
+      <div class="modal fade" id="modalImg" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <img src=./images/img.png alt=img />
+          </div>
+
+        </div>
+        <div class="btn-close" data-bs-dismiss="modal"></div>
+      </div>
+      <script type="text/javascript">
+
+      </script>
     </div>
   </div>
   </div>

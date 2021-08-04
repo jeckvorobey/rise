@@ -508,3 +508,26 @@ body {
     vertical-align: revert;
   }
 }
+
+//modal
+.modal-dialog {
+  max-width: 800px;
+
+  @media (max-width: 1199.98px) {}
+}
+
+
+.btn-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+
+  @media (max-width: 1199.98px) {
+    right: calc(50% - 30px)
+  }
+}
